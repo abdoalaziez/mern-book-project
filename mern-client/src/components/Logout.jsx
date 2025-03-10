@@ -19,15 +19,14 @@ const Logout = () => {
           });
   
     }
-  return (
-    <div className='h-screen bg-teal-100 flex justify-center items-center'>
-        <button className='bg-blue-700 text-white px-5 py-3 rounded'
-        onClick={handleLogout}
-        >
-     Logout
-     </button>
-    </div>
+    return (
+      <div className='h-screen bg-teal-100 flex justify-center items-center'>
+          <button className='bg-blue-700 text-white px-5 py-3 rounded'
+          onClick={handleLogout}>
+              Logout
+          </button>
+      </div>
   )
-}
+  }
 
 export default Logout
