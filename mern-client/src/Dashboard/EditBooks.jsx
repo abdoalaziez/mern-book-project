@@ -54,7 +54,7 @@ const EditBooks = () => {
       bookPdfUrl
     }
     // console.log(bookObj);
-    fetch(`https://mern-book-hi8w.onrender.com/update-book/${id}`,{
+    fetch(`https://backendbook-sable.vercel.app/update-book/${id}`,{
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json'

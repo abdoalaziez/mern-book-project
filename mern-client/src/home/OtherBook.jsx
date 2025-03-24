@@ -5,7 +5,7 @@ const OtherBook = () => {
     const [books, setBooks] = useState ([]);
 
     useEffect(() => {
-    fetch("https://mern-book-hi8w.onrender.com/all-books").then(res => res.json()).then(data => 
+    fetch("https://backendbook-sable.vercel.app/all-books").then(res => res.json()).then(data => 
     setBooks(data.slice(0,8)))
     }, [])
   return (
