@@ -20,7 +20,7 @@ const BannerCard = () => {
     modules={[EffectCards]}
     className="mySwiper"
   >
-    <SwiperSlide></SwiperSlide>
+    <SwiperSlide><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635260162l/58724923.jpg" alt="" /></SwiperSlide>
     <SwiperSlide></SwiperSlide>
     <SwiperSlide></SwiperSlide>
     <SwiperSlide></SwiperSlide>

@@ -54,7 +54,7 @@ const EditBooks = () => {
       bookPdfUrl
     }
     // console.log(bookObj);
-    fetch(`http://localhost:5000/update-book/${id}`,{
+    fetch(`https://mern-book-hi8w.onrender.com/update-book/${id}`,{
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json'

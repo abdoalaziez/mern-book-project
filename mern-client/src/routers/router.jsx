@@ -37,7 +37,7 @@ const router = createBrowserRouter([
             },{
                 path: '/book/:id',
                 element: <SingleBook />,
-                loader: ({ params }) => fetch(`http://localhost:5000/book/${params.id}`)
+                loader: ({ params }) => fetch(`https://mern-book-hi8w.onrender.com/book/${params.id}`)
             }
            
         ]
@@ -61,7 +61,7 @@ const router = createBrowserRouter([
         {
             path: "/admin/Dashboard/edit-books/:id",
             element: <EditBooks />,
-            loader: ({ params }) => fetch(`http://localhost:5000/book/${params.id}`)
+            loader: ({ params }) => fetch(`https://mern-book-hi8w.onrender.com/book/${params.id}`)
             },
      ]  
     },

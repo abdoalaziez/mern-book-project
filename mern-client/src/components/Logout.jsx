@@ -15,7 +15,7 @@ const Logout = () => {
             alert("Sign-out successful")
             navigate(from, {replace: true})
           }).catch((error) => {
-            // An error happened.
+            console.log(error)
           });
   
     }
